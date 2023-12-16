@@ -54,6 +54,7 @@ const CartScreen = () => {
                   <Col md={2}>R{item.price}</Col>
                   <Col md={2}>
                     <Form.Control
+                      className="qty-select"
                       as="select"
                       value={item.qty}
                       onChange={(e) =>
