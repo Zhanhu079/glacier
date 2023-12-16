@@ -2,6 +2,10 @@ main {
   min-height: 80vh;
 }
 
+.main-bg {
+  background-color: #222;
+}
+
 .rating span {
   margin: 0.1rem;
 }
@@ -50,4 +54,8 @@ table th {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+  border-radius: 0;
 }
