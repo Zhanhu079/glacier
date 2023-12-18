@@ -5,10 +5,12 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Banner from "./components/Banner";
 
 const App = () => {
   return (
     <>
+      <Banner />
       <Header />
       <main className="py-3">
         <Container>
